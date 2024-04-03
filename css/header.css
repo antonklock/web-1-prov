@@ -1,7 +1,11 @@
-.page-header{
-    position: fixed;
-    padding: 20px;
+.page-static{
+    position: sticky;
+    top: 0;
     z-index: 1000;
+}
+
+.page-header{
+    padding: 20px 0px;
     top: 0;
     width: 100%;
     color: white;
@@ -28,6 +32,29 @@
 }
 
 #nav-logo{
+    margin-left: 20px;
     width: 50px;
     height: 50px;
+}
+
+@media (min-width: 768px) {
+    .page-static{
+        position: relative;
+        z-index: 1000;
+        width: 100vw;
+    }
+
+    .page-header{
+        position: fixed;
+        padding: 20px;
+        
+        top: 0;
+        width: 100%;
+
+        background: linear-gradient(0deg, rgba(0,100,0,1) 0%, rgba(0,0,0,1) 20%);
+        border-bottom: 1px solid lightgreen;
+
+        display: flex;
+        flex-direction: row;
+    }
 }
