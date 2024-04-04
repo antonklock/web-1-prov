@@ -48,6 +48,33 @@
     border: 1px solid lightgreen;
 }
 
+.play-button{
+    position: relative;
+    width: 75px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid lightgreen;
+    background: linear-gradient(0deg, rgba(0,100,0,1) 0%, rgba(0,200,0,1) 150%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    z-index: 2000;
+
+    transition: 0.5s;
+}
+
+.play-button p{
+    color: lightgreen;
+    font-size: 15px;
+}
+
+.play-button:hover{
+    cursor: pointer;
+    scale: 1.05;
+    transition: 0.5s;
+}
+
 @media (min-width: 768px) {
     .movie-filters{
         position: fixed;

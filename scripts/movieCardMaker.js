@@ -56,14 +56,20 @@ export function createMovieItem(title, posterUrl, year, genre, duration, descrip
     const movieFront = document.createElement('div');
     movieFront.classList.add('movie-front');
 
+    const playButton = document.createElement('button');
+    playButton.classList.add('play-button');
+    playButton.innerHTML = `<p>Rent</p>`;
+
     movieItem.appendChild(movieCard);
     moviePoster.appendChild(posterImage);
     movieCard.appendChild(movieFront);
     movieInfo.appendChild(movieTitle);
 
+    movieFront.appendChild(playButton);
     movieFront.appendChild(moviePoster);
     movieFront.appendChild(movieGradient);
     movieFront.appendChild(movieInfo);
+
 
     movieBackPoster.appendChild(backPosterImage);
 
@@ -94,6 +100,13 @@ export function createMovieItem(title, posterUrl, year, genre, duration, descrip
             movieFront.classList.add('hidden');
             movieBack.classList.remove('hidden');
         }
+    });
+
+    playButton.addEventListener('click', (event) => {
+        const movieName = event.target.parentElement.parentElement.querySelector('.movie-title').textContent;
+
+        alert(`${movieName} rented! It will be delivered by messenger pigeon.`);
+        event.stopPropagation();
     });
 
     return movieItem;
