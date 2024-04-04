@@ -96,7 +96,6 @@ export function createMovieCard(title, posterUrl, year, genre, duration, descrip
             movieCard.classList.add('flipped');
             movieFront.classList.add('hidden');
             movieBack.classList.remove('hidden');
-
         }
     });
 
