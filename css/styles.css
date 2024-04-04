@@ -67,11 +67,12 @@ footer{
 
 .flipped{
     transform: rotateY(180deg);
-    transition: transform 0.1s;
+    transition: transform 0.2s;
 }
 
 .hidden{
     display: none;
+    transition: display 0.1s;
 }
 
 .movie-back{

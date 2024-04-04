@@ -56,16 +56,16 @@ export function createMovieItem(title, posterUrl, year, genre, duration, descrip
     const movieFront = document.createElement('div');
     movieFront.classList.add('movie-front');
 
-    const playButton = document.createElement('button');
-    playButton.classList.add('play-button');
-    playButton.innerHTML = `<p>Rent</p>`;
+    const rentButton = document.createElement('button');
+    rentButton.classList.add('rent-button');
+    rentButton.innerHTML = `<p>Rent</p>`;
 
     movieItem.appendChild(movieCard);
     moviePoster.appendChild(posterImage);
     movieCard.appendChild(movieFront);
     movieInfo.appendChild(movieTitle);
 
-    movieFront.appendChild(playButton);
+    movieFront.appendChild(rentButton);
     movieFront.appendChild(moviePoster);
     movieFront.appendChild(movieGradient);
     movieFront.appendChild(movieInfo);
@@ -102,10 +102,19 @@ export function createMovieItem(title, posterUrl, year, genre, duration, descrip
         }
     });
 
-    playButton.addEventListener('click', (event) => {
-        const movieName = event.target.parentElement.parentElement.querySelector('.movie-title').textContent;
+    rentButton.addEventListener('click', (event) => {
+        try {
+            const movieName = event.target.parentElement.parentElement.querySelector('.movie-title').textContent;
 
-        alert(`${movieName} rented! It will be delivered by messenger pigeon.`);
+            if (movieName) {
+                alert(`${movieName} rented! It will be delivered by messenger pigeon.`);
+            } else {
+                alert(`Movie rented! It will be delivered by messenger pigeon.`);
+            }
+        } catch (e) {
+            console.warn('Error renting movie: ', e);
+        }
+
         event.stopPropagation();
     });
 
