@@ -1,10 +1,10 @@
 const movieList = document.getElementById('movie-list');
 
 import { movies } from './movies.js';
-import { createMovieCard } from './movieCardMaker.js';
+import { createMovieItem } from './movieCardMaker.js';
 
 movies.forEach(movie => {
-    const movieCard = createMovieCard(
+    const movieItem = createMovieItem(
         movie.titleText.text,
         movie.primaryImage.url,
         movie.releaseYear.year,
@@ -13,5 +13,5 @@ movies.forEach(movie => {
         movie.description.plainText
     );
 
-    movieList.appendChild(movieCard);
+    movieList.appendChild(movieItem);
 });

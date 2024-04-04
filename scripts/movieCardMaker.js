@@ -1,4 +1,4 @@
-export function createMovieCard(title, posterUrl, year, genre, duration, description) {
+export function createMovieItem(title, posterUrl, year, genre, duration, description) {
     const movieItem = document.createElement('li');
     movieItem.classList.add('movie-item');
 
@@ -28,7 +28,7 @@ export function createMovieCard(title, posterUrl, year, genre, duration, descrip
     movieDetailsContainer.classList.add('movie-details-container');
 
     movieDetailsContainer.innerHTML = `<p>${year} | ${duration}</p>
-                            <p>${genre}</p>`;
+                                        <p>${genre}</p>`;
 
     const movieDetails = document.createElement('div');
     movieDetails.classList.add('movie-details');
@@ -56,8 +56,6 @@ export function createMovieCard(title, posterUrl, year, genre, duration, descrip
     const movieFront = document.createElement('div');
     movieFront.classList.add('movie-front');
 
-
-
     movieItem.appendChild(movieCard);
     moviePoster.appendChild(posterImage);
     movieCard.appendChild(movieFront);
@@ -66,7 +64,6 @@ export function createMovieCard(title, posterUrl, year, genre, duration, descrip
     movieFront.appendChild(moviePoster);
     movieFront.appendChild(movieGradient);
     movieFront.appendChild(movieInfo);
-
 
     movieBackPoster.appendChild(backPosterImage);
 
