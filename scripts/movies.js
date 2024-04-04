@@ -41,7 +41,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2010,
                     "__typename": "ReleaseDate"
                 },
-                "position": 140
+                "position": 140,
+                "description": {
+                    "plainText": "As a string of mysterious killings grips Seattle, Bella, whose high school graduation is fast approaching, is forced to choose between her love for vampire Edward and her friendship with werewolf Jacob.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Adventure, Drama, Fantasy",
+                "duration": "124 min"
             },
             {
                 "_id": "61e5bb62d8f3c0931e4f61ef",
@@ -83,7 +89,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2017,
                     "__typename": "ReleaseDate"
                 },
-                "position": 84
+                "position": 84,
+                "description": {
+                    "plainText": "The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's encounter with his father the ambitious celestial being Ego.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Action, Adventure, Comedy",
+                "duration": "136 min"
             },
             {
                 "_id": "61e5b351a66e5964234d7a5d",
@@ -125,7 +137,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2016,
                     "__typename": "ReleaseDate"
                 },
-                "position": 45
+                "position": 45,
+                "description": {
+                    "plainText": "Friendly but forgetful blue tang Dory begins a search for her long-lost parents, and everyone learns a few things about the real meaning of family along the way.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Animation, Adventure, Comedy",
+                "duration": "97 min"
             },
             {
                 "_id": "61e595438a5a6a599f460fd9",
@@ -167,7 +185,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2013,
                     "__typename": "ReleaseDate"
                 },
-                "position": 60
+                "position": 60,
+                "description": {
+                    "plainText": "The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Adventure, Fantasy",
+                "duration": "161 min"
             },
             {
                 "_id": "61e5d793971a4a15d6562c15",
@@ -209,7 +233,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2018,
                     "__typename": "ReleaseDate"
                 },
-                "position": 190
+                "position": 190,
+                "description": {
+                    "plainText": "A group of former mercenaries reunite to plan an epic heist: boosting a truck full of medicine held by a foreign intelligence agency to supply a refugee camp in need. But when they find the truck is actually filled with stolen gold.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Action, Adventure, Crime",
+                "duration": "126 min"
             },
             {
                 "_id": "61e5905ce1a8ddbd9644d9b1",
@@ -251,7 +281,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2021,
                     "__typename": "ReleaseDate"
                 },
-                "position": 7
+                "position": 7,
+                "description": {
+                    "plainText": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Action, Adventure, Fantasy",
+                "duration": "148 min"
             },
             {
                 "_id": "61e5837e95801a78bc41d935",
@@ -293,7 +329,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2004,
                     "__typename": "ReleaseDate"
                 },
-                "position": 67
+                "position": 67,
+                "description": {
+                    "plainText": "Shrek and Fiona travel to the Kingdom of Far Far Away, where Fiona's parents are King and Queen, to celebrate their marriage. When they arrive, they find they are not as welcome as they thought they would be.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Animation, Adventure, Comedy",
+                "duration": "93 min"
             },
             {
                 "_id": "61e5bf3ed8f3c0931e504d95",
@@ -335,7 +377,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2016,
                     "__typename": "ReleaseDate"
                 },
-                "position": 199
+                "position": 199,
+                "description": {
+                    "plainText": "Xuan's estate project involving reclamation of the sea threatens the livelihood of the mermaids who rely on the sea to survive. Shan is dispatched to stop Xuan and this leads them into falling for each other.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Comedy, Drama, Fantasy",
+                "duration": "94 min"
             },
             {
                 "_id": "61e5842ee1a8ddbd9642013b",
@@ -377,7 +425,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2005,
                     "__typename": "ReleaseDate"
                 },
-                "position": 197
+                "position": 197,
+                "description": {
+                    "plainText": "A greedy film producer assembles a team of moviemakers and sets out for the infamous Skull Island, where they find more than just cannibalistic natives.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Action, Adventure, Drama",
+                "duration": "187 min"
             },
             {
                 "_id": "61e5b8f2d735dff3f94ecd87",
@@ -419,7 +473,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2017,
                     "__typename": "ReleaseDate"
                 },
-                "position": 179
+                "position": 179,
+                "description": {
+                    "plainText": "A deadly threat from Earth's history reappears and a hunt for a lost artifact takes place between Autobots and Decepticons, while Optimus Prime encounters his creator in space.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Action, Adventure, Sci-Fi",
+                "duration": "154 min"
             },
             {
                 "_id": "61e5857cd8f3c0931e424d91",
@@ -461,7 +521,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2013,
                     "__typename": "ReleaseDate"
                 },
-                "position": 185
+                "position": 185,
+                "description": {
+                    "plainText": "After their cave is destroyed, a caveman family must trek through an unfamiliar fantastical world with the help of an inventive boy.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Animation, Adventure, Comedy",
+                "duration": "98 min"
             },
             {
                 "_id": "61e58e7778c012aa34446169",
@@ -503,7 +569,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2009,
                     "__typename": "ReleaseDate"
                 },
-                "position": 90
+                "position": 90,
+                "description": {
+                    "plainText": "Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers' war.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Action, Adventure, Sci-Fi",
+                "duration": "149 min"
             },
             {
                 "_id": "61e5821c971a4a15d641891d",
@@ -545,7 +617,13 @@ const jsonMovies = JSON.stringify(
                     "year": 1999,
                     "__typename": "ReleaseDate"
                 },
-                "position": 150
+                "position": 150,
+                "description": {
+                    "plainText": "Malcolm Crowe, a child psychologist, starts treating a young boy, Cole, who encounters dead people and convinces him to help them. In turn, Cole helps Malcolm reconcile with his estranged wife.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Drama, Mystery, Thriller",
+                "duration": "107 min"
             },
             {
                 "_id": "61e58525b597b91eb94239fb",
@@ -587,7 +665,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2011,
                     "__typename": "ReleaseDate"
                 },
-                "position": 198
+                "position": 198,
+                "description": {
+                    "plainText": "An outlaw cat, his childhood egg-friend and a seductive thief kitty set out in search for the eggs of the fabled Golden Goose to clear his name, restore his lost honor and regain the trust of his mother and town.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Animation, Adventure, Comedy",
+                "duration": "90 min"
             },
             {
                 "_id": "61e5837c909c2ca78141d79b",
@@ -629,7 +713,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2002,
                     "__typename": "ReleaseDate"
                 },
-                "position": 68
+                "position": 68,
+                "description": {
+                    "plainText": "An ancient prophecy seems to be coming true when a mysterious presence begins stalking the corridors of a school of magic and leaving its victims paralyzed.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Adventure, Family, Fantasy",
+                "duration": "161 min"
             },
             {
                 "_id": "61e5b447971a4a15d64db8ad",
@@ -671,7 +761,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2021,
                     "__typename": "ReleaseDate"
                 },
-                "position": 111
+                "position": 111,
+                "description": {
+                    "plainText": "James Bond has left active service. His peace is short-lived when Felix Leiter, an old friend from the CIA, turns up asking for help, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Action, Adventure, Thriller",
+                "duration": "163 min"
             },
             {
                 "_id": "61e5c2cd95801a78bc512d17",
@@ -713,7 +809,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2018,
                     "__typename": "ReleaseDate"
                 },
-                "position": 108
+                "position": 108,
+                "description": {
+                    "plainText": "Foul-mouthed mutant mercenary Wade Wilson (a.k.a. Deadpool), brings together a team of fellow mutant rogues to protect",
+                    "__typename": "Markdown"
+                },
+                "genre": "Action, Adventure, Comedy",
+                "duration": "119 min"
             },
             {
                 "_id": "61e5b072cffb8f2faa4cc80b",
@@ -755,7 +857,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2013,
                     "__typename": "ReleaseDate"
                 },
-                "position": 161
+                "position": 161,
+                "description": {
+                    "plainText": "When the Dark Elves attempt to plunge the universe into darkness, Thor must embark on a perilous and personal journey that will reunite him with doctor Jane Foster.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Action, Adventure, Fantasy",
+                "duration": "112 min"
             },
             {
                 "_id": "61e597f7d8f3c0931e46b80d",
@@ -797,7 +905,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2011,
                     "__typename": "ReleaseDate"
                 },
-                "position": 196
+                "position": 196,
+                "description": {
+                    "plainText": "Star race car Lightning McQueen and his pal Mater head overseas to compete in the World Grand Prix race. But the road to the championship becomes rocky as Mater gets caught up in an intriguing adventure.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Animation, Adventure, Comedy",
+                "duration": "106 min"
             },
             {
                 "_id": "61e5b3a0d735dff3f94d90c3",
@@ -839,7 +953,13 @@ const jsonMovies = JSON.stringify(
                     "year": 2014,
                     "__typename": "ReleaseDate"
                 },
-                "position": 58
+                "position": 58,
+                "description": {
+                    "plainText": "Bilbo and company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness.",
+                    "__typename": "Markdown"
+                },
+                "genre": "Adventure, Fantasy",
+                "duration": "144 min"
             }
         ]
     }

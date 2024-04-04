@@ -8,9 +8,9 @@ movies.forEach(movie => {
         movie.titleText.text,
         movie.primaryImage.url,
         movie.releaseYear.year,
-        "GENRE PLACEHOLDER",
-        "DURATION PLACEHOLDER",
-        "DESCRIPTION PLACEHOLDER"
+        movie.genre,
+        movie.duration,
+        movie.description.plainText
     );
 
     movieList.appendChild(movieCard);
