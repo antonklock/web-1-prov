@@ -45,6 +45,7 @@ footer{
 }
 
 .movie-item{
+    margin-bottom: 20px;
     transform: scale(1.0);
     transition: transform 0.2s;
 }
@@ -107,7 +108,7 @@ footer{
     flex-direction: column;
     justify-content: space-between;
 
-    height: 300px;
+    height: 350px;
 
     position: relative;
     z-index: 1000;
@@ -223,6 +224,10 @@ footer{
 
     .movie-poster img{
         width: 200px;
+        height: 300px;
+    }
+
+    .movie-details{
         height: 300px;
     }
 }
