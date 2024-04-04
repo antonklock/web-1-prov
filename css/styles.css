@@ -56,6 +56,7 @@ footer{
 }
 
 .movie-card{
+    border-radius: 4px;
     position: relative;
     width: 237px;
     height: 350px;
@@ -91,10 +92,6 @@ footer{
     position: absolute;
     top: 0;
     left: 0;
-}
-
-.movie-poster img{
-    border-radius: 4px;
 }
 
 .movie-details-container p{
